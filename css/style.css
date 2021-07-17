@@ -1,0 +1,36 @@
+#header ul {
+  list-style-type: none;
+}
+
+.bg-dark li a {
+  color: white
+}
+
+#languages > ul > li {
+  color: #ffffff;
+  margin-right: 50px;
+}
+
+#social-links > ul > li {
+  margin-bottom: -100px;
+}
+
+#logo {
+  margin-top: -25px;
+}
+button[data-bs-target="#content"] {
+  margin-top: -20px;
+}
+
+#site-links {
+  margin-top: -20px;
+  /* margin-left: 610px; */
+}
+
+nav.bg-white {
+  background-color: #ffffff;
+}
+
+div.row div {
+  margin-top: 10px;
+}
