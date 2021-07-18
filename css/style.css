@@ -6,9 +6,13 @@ nav.bg-white {
   list-style-type: none;
 }
 
-.d-flex {
+.contacts, .social-links, .languages {
   margin-bottom: 0px;
 }
+
+/* .d-flex {
+  margin-bottom: 0px;
+} */
 
 .bg-dark li a {
   color: white
@@ -22,6 +26,6 @@ nav.bg-white {
   color: #ffffff;
 }
 
-.social-links > ul > li:not(:last-child) {
+.social-links > li:not(:last-child) {
   margin-right: 5px;
 }
