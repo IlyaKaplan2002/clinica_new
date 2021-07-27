@@ -1,0 +1,66 @@
+:root {
+  --hover-color: #2196f3;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+body,
+h2,
+h3,
+a {
+  /* color: #212121; */
+  font-family: "Roboto", sans-serif;
+  /* font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.14; */
+}
+
+a {
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.16;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.section {
+  padding: 80px 0;
+}
+
+.section-title {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.16;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.main-text {
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 1.16;
+  letter-spacing: -0.02em;
+}
