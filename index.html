@@ -5,230 +5,239 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Главная</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       rel="stylesheet"
-      href="node_modules/modern-normalize/modern-normalize.css"
+      href="./node_modules/modern-normalize/modern-normalize.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
     />
     <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/index.css" />
   </head>
   <body>
-    <header class="page-header">
-      <div class="container">
-        <section class="contacts">
-          <ul class="post-tel">
-            <li>
-              <a href="mailto:kaplan.cardio@gmail.com"
-                >kaplan.cardio@gmail.com</a
-              >
-            </li>
-            <li><a href="tel:380678040363">+380 67 804 03 63</a></li>
-          </ul>
+    <header>
+      <div class="container page-header">
+        <nav class="header-nav">
+          <a href="./index.html">
+            <svg class="header-logo">
+              <use href="./img/icons.svg#header-logo"></use>
+            </svg>
+          </a>
 
-          <ul class="social-nets">
-            <li>
-              <img src="./img/facebook.png" alt="Логотип Фейсбук" width="32" />
-            </li>
-            <li>
-              <img
-                src="./img/instagram.png"
-                alt="Логотип Инстаграмм"
-                width="32"
-              />
-            </li>
-            <li>
-              <img
-                src="./img/telegram.png"
-                alt="Логотип Телеграмм"
-                width="32"
-              />
-            </li>
-            <li>
-              <img src="./img/viber.png" alt="Логотип Вайбер" width="32" />
-            </li>
-            <li>
-              <img src="./img/whatsapp.png" alt="Логотип Вотсапп" width="32" />
-            </li>
-          </ul>
-
-          <ul class="lang">
-            <li lang="en">English</li>
-            <li>Русский</li>
-            <li lang="ua">Українська</li>
-          </ul>
-        </section>
-
-        <nav class="nav-panel">
-          <a href="./index.html"
-            ><img src="./img/logo.jpg" alt="Логотип" width="200"
-          /></a>
-
-          <ul class="nav-links">
-            <li><a href="#">Главная</a></li>
-            <li><a href="#">Записаться на прием</a></li>
-            <li><a href="#">Услуги</a></li>
-            <li><a href="#">Контакты</a></li>
+          <ul class="nav-list">
+            <li class="nav-list-item"><a href="./index.html">Главная</a></li>
+            <li class="nav-list-item"><a href="#">Услуги</a></li>
+            <li class="nav-list-item"><a href="#">Информация</a></li>
+            <li class="nav-list-item"><a href="#">Контакты</a></li>
           </ul>
         </nav>
+
+        <ul class="contacts-list">
+          <li class="contacts-list-item">
+            <a href="tel:380678040363">
+              <svg>
+                <use href="./img/icons.svg#phone"></use>
+              </svg>
+              +380 67 804 03 63</a
+            >
+          </li>
+
+          <li class="contacts-list-item">
+            <a href="mailto:kaplan.cardio@gmail.com">
+              <svg>
+                <use href="./img/icons.svg#email"></use>
+              </svg>
+              kaplan.cardio@gmail.com</a
+            >
+          </li>
+        </ul>
       </div>
     </header>
 
     <main>
-      <h1 class="visually-hidden">Кардиологический кабинет Каплана Днепр</h1>
-
-      <section class="about-section">
+      <section class="section hero">
         <div class="container">
-          <h2>О НАС</h2>
-          <h3>ДОБРО ПОЖАЛОВАТЬ!</h3>
-          <p>
+          <h1 class="hero-title">
+            Кардиологический кабинет доктора Каплана П. А.
+          </h1>
+        </div>
+      </section>
+
+      <section class="section welcome">
+        <div class="container">
+          <h2 class="section-title">добро пожаловать!</h2>
+
+          <p class="main-text">
             Консультативный прием ведет врач-кардиолог высшей категории, доцент,
-            кандидат медецинских наук, автор множества научных работ по
-            кардиологии, член Европейского общества кардиологов Каплан Павел
-            Александрович. Опыт работы: 22 года
+            кандидат медицинских наук, автор множества научных работ по
+            кардиологии, член Европейского общества кардиологов
+            <span class="important"><br />Каплан Павел Александрович.</span
+            ><br />
+            Опыт работы: <span class="important">22 года</span>
           </p>
         </div>
       </section>
 
-      <section>
-        <h2>Информация для пациента</h2>
-        <ul>
-          <li>
-            <h3>Гипертензия</h3>
-            <img src="./img/4.jpg" alt="" />
-            <p>
-              Артериальная гипертензия — это патологическое повышение давления
-              выше показателя в 130-140/85-90 мм. рт. ст. Тревожные признаки,
-              свидетельствующие о развитии гипертонического кризиса: головная
-              боль; боль в области грудной клетки; головокружение; слабость;
-              одышка; ощущение тревожности;
-            </p>
-          </li>
-          <li>
-            <h3>Стенокардия</h3>
-            <img src="./img/8.jpg" alt="" />
-            <p>
-              Стенокардия проявляется приступами сердечной боли, в результате
-              недостаточного снабжения миокарда кровью. Основной причиной
-              является ишемия, развивающаяся на фоне многолетнего отложения на
-              внутренних стенках артерий атеросклеротических бляшек. Любые
-              тревожные признаки, характеризующие патологические процессы в
-              сердце — это повод незамедлительно отправиться к кардиологу.
-              Каждый клинический случай стенокардии уникален — он спровоцирован
-              различными факторами, имеет различную степень выраженности,
-              поэтому без индивидуальной диагностики и разработанной конкретно
-              для ВАС программы лечения одолеть болезнь не получится.
-            </p>
-          </li>
-          <li>
-            <h3>Атеросклероз</h3>
-            <img src="./img/5.jpg" alt="" />
-            <p>
-              Атеросклероз — опасное заболевание, характеризующееся жировыми
-              отложениями(атеросклеротическими бляшками) на внутренних стенках
-              артерий, в результате чего затрудняется кровоток и нарушается
-              питание тканей организма. При разрастании бляшек, их целостность
-              может нарушаться и они превращаются в тромбы, которые перемещаются
-              по сосудам, закупоривая просвет. В результате развиваются инфаркты
-              и инсульты. Прогрессирование болезни достаточно медленное, может
-              протекать без видимых проявлений несколько лет. Первые признаки,
-              ощутимые для человека, начинаются с момента закупорки просвета
-              более чем на три четверти. Атеросклероз можно предотвратить или
-              максимально снизить темп его развития. Своевременное обращение к
-              специалисту поможет предотвратить тяжелые последствия этого
-              заболевания.
-            </p>
-          </li>
-          <li>
-            <h3>Обращаться:</h3>
-            <img src="./img/6.jpg" alt="" />
-            <p>
-              КОГДА НУЖНО ОБРАЩАТЬСЯ К КАРДИОЛОГУ? К кардиологу нужно обратиться
-              каждому мужчине старше 40 и женщине старше 50 лет. Даже если нет
-              никаких симптомов, ничего не беспокоит и на первый взгляд все
-              отлично. Также кардиолога нужно посетить если возникли симптомы,
-              которые могут указывать на развитие сердечно-сосудистых
-              заболеваний: боли в области грудной клетки одышка, нарушение
-              дыхания замедленное или учащенное сердцебиение потеря сознания или
-              предобморочные состояния скачки давления
-            </p>
-          </li>
-          <li>
-            <h3>Лечим:</h3>
-            <img src="./img/7.jpg" alt="" />
-            <p>
-              КАКИЕ БОЛЕЗНИ ЛЕЧИТ КАРДИОЛОГ? СПЕЦИАЛИСТ ЗАНИМАЕТСЯ ДИАГНОСТИКОЙ
-              И ЛЕЧЕНИЕМ: Ишемической болезни сердца Пороки сердца врожденные и
-              приобретенные Кардиты Сердечная недостаточность Расстройство
-              сердечного ритма Гипертоническая болезнь Тромбофлебиты, тромбозы
-              Прединфарктные состояния, инфаркты Аневризмы
-            </p>
-          </li>
-        </ul>
-      </section>
+      <section class="section time">
+        <div class="container">
+          <h2 class="section-title">ВРЕМЯ РАБОТЫ</h2>
 
-      <section>
-        <h2>НАШИ УСЛУГИ</h2>
-        <ul>
-          <li>
-            <a href=""
-              >Первичный прием врача-кардиолога (с регистрацией и расшифровкой
-              ЭКГ)</a
-            >
-          </li>
-          <li>
-            <a href=""
-              >Повторный прием врача-кардиолога (с регистрацией и расшифровкой
-              ЭКГ</a
-            >
-          </li>
-          <li>
-            <a href=""
-              >Консультация врача-кардиолога на дому у пациента (с регистрацией
-              и расшифровкой ЭКГ)</a
-            >
-          </li>
-          <li><a href="">Регистрация и расшифровка ЭКГ</a></li>
-          <li><a href="">Регистрация и расшифровка ЭКГ с ритмограммой</a></li>
-          <li><a href="">Суточное(холтеровское) мониторирование ЭКГ</a></li>
-          <li>
-            <a href="">Суточное мониторирование артериального давления</a>
-          </li>
-        </ul>
-        <ul>
-          <li><a href="">590грн</a></li>
-          <li><a href="">540грн</a></li>
-          <li><a href="">990грн</a></li>
-          <li><a href="">220грн</a></li>
-          <li><a href="">290грн</a></li>
-          <li><a href="">550грн</a></li>
-          <li><a href="">450грн</a></li>
-        </ul>
-      </section>
+          <div class="time-lists-container">
+            <ul class="days-list">
+              <li class="days-item main-text">
+                <svg>
+                  <use href="./img/icons.svg#clock"></use>
+                </svg>
+                Понедельник
+              </li>
+              <li class="days-item main-text">
+                <svg>
+                  <use href="./img/icons.svg#clock"></use>
+                </svg>
+                Вторник
+              </li>
+              <li class="days-item main-text">
+                <svg>
+                  <use href="./img/icons.svg#clock"></use>
+                </svg>
+                Среда
+              </li>
+              <li class="days-item main-text">
+                <svg>
+                  <use href="./img/icons.svg#clock"></use>
+                </svg>
+                Четверг
+              </li>
+              <li class="days-item main-text">
+                <svg>
+                  <use href="./img/icons.svg#clock"></use>
+                </svg>
+                Пятница
+              </li>
+              <li class="days-item main-text">
+                <svg>
+                  <use href="./img/icons.svg#clock"></use>
+                </svg>
+                Суббота
+              </li>
+              <li class="days-item main-text">
+                <svg>
+                  <use href="./img/icons.svg#clock"></use>
+                </svg>
+                Воскресенье
+              </li>
+            </ul>
 
-      <section>
-        <h2>ВРЕМЯ РАБОТЫ</h2>
-        <ul>
-          <li>Понедельник9</li>
-          <li>Вторник</li>
-          <li>Среда</li>
-          <li>Четверг</li>
-          <li>Пятница</li>
-          <li>Суббота</li>
-          <li>Воскресенье</li>
-        </ul>
-        <ul>
-          <li>9:00 – 19:00</li>
-          <li>9:00 – 19:00</li>
-          <li>9:00 – 19:00</li>
-          <li>9:00 – 19:00</li>
-          <li>9:00 – 19:00</li>
-          <li>10:00 – 16:00</li>
-          <li>Выходной</li>
-        </ul>
+            <ul class="time-list">
+              <li class="time-item main-text">09:00 - 19:00</li>
+              <li class="time-item main-text">09:00 - 19:00</li>
+              <li class="time-item main-text">09:00 - 19:00</li>
+              <li class="time-item main-text">09:00 - 19:00</li>
+              <li class="time-item main-text">09:00 - 19:00</li>
+              <li class="time-item main-text">10:00 - 16:00</li>
+              <li class="time-item main-text">Выходной</li>
+            </ul>
+          </div>
+        </div>
       </section>
     </main>
 
-    <footer></footer>
+    <footer class="page-footer">
+      <div class="container">
+        <section class="footer-left">
+          <a href="./index.html"
+            ><svg class="footer-logo">
+              <use href="./img/icons.svg#footer-logo"></use>
+            </svg>
+          </a>
+
+          <ul class="footer-contacts-list">
+            <li class="footer-contacts-item">
+              <a href=""
+                >г. Днепр, ул. Костомаровская 8<br />(здание спорткомпллекса
+                "Динамо")</a
+              >
+            </li>
+
+            <li class="footer-contacts-item">
+              <a href="mailto:kaplan.cardio@gmail.com">
+                <svg>
+                  <use href="./img/icons.svg#email"></use>
+                </svg>
+                kaplan.cardio@gmail.com</a
+              >
+            </li>
+
+            <li class="footer-contacts-item">
+              <a href="tel:380678040363">
+                <svg>
+                  <use href="./img/icons.svg#phone"></use>
+                </svg>
+                +380 67 804 03 63</a
+              >
+            </li>
+          </ul>
+        </section>
+
+        <section class="social-links">
+          <h2 class="social-links-title">Присоединяйтесь</h2>
+
+          <ul class="social-links-list">
+            <li class="social-links-item">
+              <a href="">
+                <svg>
+                  <use href="./img/icons.svg#instagram"></use>
+                </svg>
+              </a>
+            </li>
+
+            <li class="social-links-item">
+              <a href="">
+                <svg>
+                  <use href="./img/icons.svg#facebook"></use>
+                </svg>
+              </a>
+            </li>
+
+            <li class="social-links-item">
+              <a href="">
+                <svg>
+                  <use href="./img/icons.svg#telegram"></use>
+                </svg>
+              </a>
+            </li>
+
+            <li class="social-links-item">
+              <a href="">
+                <svg>
+                  <use href="./img/icons.svg#viber"></use>
+                </svg>
+              </a>
+            </li>
+
+            <li class="social-links-item">
+              <a href="">
+                <svg>
+                  <use href="./img/icons.svg#whatsapp"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </section>
+
+        <section class="map">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2645.82341126304!2d35.03286330563295!3d48.45991764139793!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x151dd496c2b33ba0!2sKaplan%20Cardiology!5e0!3m2!1sru!2sua!4v1627409013805!5m2!1sru!2sua"
+            width="663"
+            height="210"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+          ></iframe>
+        </section>
+      </div>
+    </footer>
   </body>
 </html>
