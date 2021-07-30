@@ -6,6 +6,7 @@ $(document).ready(function() {
       if($(this).attr("class") == "open") {
         for(let j = 0; j < liItems.length; j++) {
             $(liItems[j]).attr("class", "info-item closed");
+            $(buttons[j]).attr("class", "open");
         }
         $(liItems[i]).attr("class", "info-item opened");
         $(buttons[i]).attr("class", "close");
