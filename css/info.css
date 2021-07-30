@@ -47,16 +47,8 @@
   align-items: center;
 }
 
-.opened .info-title {
-  align-items: start;
-}
-
 .opened .open-icon {
-  margin-top: 50%;
-}
-
-.opened .section-title {
-  margin-bottom: 25px;
+  transform: rotate(45deg);
 }
 
 .opened .open {
