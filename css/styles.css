@@ -186,7 +186,7 @@ a {
   stroke: #ffffff;
 }
 
-.footer-contacts-item {
+.footer-contacts-item:not(:last-child) {
   margin-bottom: 20px;
 }
 
