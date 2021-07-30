@@ -1,16 +1,18 @@
 $(document).ready(function() {
-  let items = $(".info-item");
-  for(let i = 1; i <= 5; i++) {
-    $(`.open[name=b${i}]`).bind("click", function() {
-      for(let j = 0; j < items.length; j++) {
-        $(items[j]).attr("class", "info-item closed");
+  let liItems = $(".info-item");
+  let buttons = $(".info-item button");
+  for (let i = 0; i < liItems.length; i++) {
+    $(buttons[i]).bind("click", function() {
+      if($(this).attr("class") == "open") {
+        for(let j = 0; j < liItems.length; j++) {
+            $(liItems[j]).attr("class", "info-item closed");
+        }
+        $(liItems[i]).attr("class", "info-item opened");
+        $(buttons[i]).attr("class", "close");
+      } else if($(this).attr("class") == "close") {
+        $(liItems[i]).attr("class", "info-item closed");
+        $(buttons[i]).attr("class", "open");
       }
-      $(`.info-item[name=li${i}]`).attr("class", "info-item opened");
-      $(this).attr("class", "close");
-    });
-    $(`.close[name=b${i}]`).bind("click", function() {
-      $(`.info-item[name=li${i}]`).attr("class", "info-item closed");
-      $(this).attr("class", "open");
     });
   }
 });
