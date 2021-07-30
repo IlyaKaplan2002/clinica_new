@@ -51,6 +51,10 @@
   transform: rotate(45deg);
 }
 
+.opened .info-title {
+  margin-bottom: 25px;
+}
+
 .opened .open {
   display: none;
 }
