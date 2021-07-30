@@ -51,9 +51,9 @@
   display: none;
 }
 
-.closed .close {
+/* .closed .close {
   display: none;
-}
+} */
 
 .closed .info-icon {
   transform: rotate(0);
@@ -67,6 +67,6 @@
   margin-bottom: 25px;
 }
 
-.opened .open {
+/* .opened .open {
   display: none;
-}
+} */
