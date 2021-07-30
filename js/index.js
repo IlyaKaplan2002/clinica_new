@@ -6,9 +6,11 @@ $(document).ready(function() {
         $(items[j]).attr("class", "info-item closed");
       }
       $(`.info-item[name=li${i}]`).attr("class", "info-item opened");
+      $(this).attr("class", "close");
     });
     $(`.close[name=b${i}]`).bind("click", function() {
       $(`.info-item[name=li${i}]`).attr("class", "info-item closed");
+      $(this).attr("class", "open");
     });
   }
 });
