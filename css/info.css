@@ -33,6 +33,7 @@
 
 .info-item svg {
   stroke: black;
+  stroke-width: 2px;
 }
 
 .info-item svg:hover {
