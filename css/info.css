@@ -55,7 +55,11 @@
   display: none;
 }
 
-.opened .open-icon {
+.closed .info-icon {
+  transform: rotate(0);
+}
+
+.opened .info-icon {
   transform: rotate(45deg);
 }
 
