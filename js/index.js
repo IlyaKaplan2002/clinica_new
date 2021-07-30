@@ -6,7 +6,6 @@ $(document).ready(function() {
         $(items[j]).attr("class", "info-item closed");
       }
       $(`.info-item[name=li${i}]`).attr("class", "info-item opened");
-      // console.log($(`.info-item[name=li${i}]`).attr("class"));
     });
     $(`.close[name=b${i}]`).bind("click", function() {
       $(`.info-item[name=li${i}]`).attr("class", "info-item closed");

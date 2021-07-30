@@ -47,6 +47,14 @@
   align-items: center;
 }
 
+.closed .info-text {
+  display: none;
+}
+
+.closed .close {
+  display: none;
+}
+
 .opened .open-icon {
   transform: rotate(45deg);
 }
@@ -56,13 +64,5 @@
 }
 
 .opened .open {
-  display: none;
-}
-
-.closed .info-text {
-  display: none;
-}
-
-.closed .close {
   display: none;
 }
