@@ -47,15 +47,11 @@
   align-items: center;
 }
 
-.opened .info-title {
-  align-items: start;
-}
-
 .opened .open-icon {
-  margin-top: 50%;
+  transform: rotate(45deg);
 }
 
-.opened .section-title {
+.opened .info-title {
   margin-bottom: 25px;
 }
 
