@@ -1,0 +1,62 @@
+.info .section-title {
+  margin-bottom: 50px;
+  font-size: 48px;
+  text-transform: none;
+}
+
+.info-item {
+  border: 1px solid #000000;
+  padding: 20px 100px;
+}
+
+.info-item .section-title {
+  margin: 0;
+  padding: 0;
+}
+
+.info-item ul {
+  list-style: disc;
+  margin-left: 28px;
+}
+
+.info-item p,
+.info-item li {
+  font-size: 18px;
+}
+
+.info-item button {
+  background-color: #ffffff;
+  border: none;
+  margin: 0;
+  padding: 0;
+}
+
+.info-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.opened .info-title {
+  align-items: start;
+}
+
+.opened .open-icon {
+  margin-top: 50%;
+}
+
+.opened .section-title {
+  margin-bottom: 25px;
+}
+
+.opened .open {
+  display: none;
+}
+
+.closed .info-text {
+  display: none;
+}
+
+.closed .close {
+  display: none;
+}

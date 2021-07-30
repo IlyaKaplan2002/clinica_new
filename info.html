@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Информация</title>
+    <link
+      rel="stylesheet"
+      href="./node_modules/modern-normalize/modern-normalize.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/info.css" />
+  </head>
+  <body>
+    <header class="page-header">
+      <div class="container page-header-cont">
+        <nav class="header-nav">
+          <a href="./index.html">
+            <svg class="header-logo">
+              <use href="./img/icons.svg#logo"></use>
+            </svg>
+          </a>
+
+          <ul class="nav-list">
+            <li class="nav-list-item"><a href="./index.html">Главная</a></li>
+            <li class="nav-list-item"><a href="./services.html">Услуги</a></li>
+            <li class="nav-list-item"><a href="./info.html">Информация</a></li>
+            <li class="nav-list-item">
+              <a href="./contacts.html">Контакты</a>
+            </li>
+          </ul>
+        </nav>
+
+        <ul class="contacts-list">
+          <li class="contacts-list-item">
+            <a href="tel:380678040363">
+              <svg>
+                <use href="./img/icons.svg#phone"></use>
+              </svg>
+              +380 67 804 03 63</a
+            >
+          </li>
+
+          <li class="contacts-list-item">
+            <a href="mailto:kaplan.cardio@gmail.com">
+              <svg>
+                <use href="./img/icons.svg#email"></use>
+              </svg>
+              kaplan.cardio@gmail.com</a
+            >
+          </li>
+        </ul>
+      </div>
+    </header>
+
+    <main>
+      <section class="info section">
+        <div class="container">
+          <h1 class="section-title">Информация для пациента</h1>
+
+          <ul class="info-list">
+            <!-- Реализовать смену классов по нажатию на кнопку opened/closed -->
+            <li class="info-item opened">
+              <div class="info-title">
+                <h2 class="section-title">Гипертензия</h2>
+
+                <button class="open">
+                  <svg width="25" height="25" class="close-icon">
+                    <use href="./img/icons.svg#plus"></use>
+                  </svg>
+                </button>
+
+                <button class="close">
+                  <svg width="25" height="25" class="open-icon">
+                    <use href="./img/icons.svg#x"></use>
+                  </svg>
+                </button>
+              </div>
+
+              <div class="info-text">
+                <p>
+                  <b>Артериальная гипертензия</b> — это патологическое повышение
+                  давления выше показателя в 130-140/85-90 мм. рт. ст. Тревожные
+                  признаки, свидетельствующие о развитии гипертонического
+                  кризиса:
+                </p>
+                <ul>
+                  <li>головная боль;</li>
+                  <li>боль в области грудной клетки</li>
+                  <li>головокружение;</li>
+                  <li>слабость;</li>
+                  <li>одышка;</li>
+                  <li>ощущение тревожности;</li>
+                </ul>
+              </div>
+            </li>
+            <li class="info-item closed">
+              <div class="info-title">
+                <h2 class="section-title">Стенокардия</h2>
+
+                <button class="open">
+                  <svg width="25" height="25" class="close-icon">
+                    <use href="./img/icons.svg#plus"></use>
+                  </svg>
+                </button>
+
+                <button class="close">
+                  <svg width="25" height="25" class="open-icon">
+                    <use href="./img/icons.svg#x"></use>
+                  </svg>
+                </button>
+              </div>
+
+              <div class="info-text">
+                <p>
+                  <b>Стенокардия</b> проявляется приступами сердечной боли, в
+                  результате недостаточного снабжения миокарда кровью. Основной
+                  причиной является ишемия, развивающаяся на фоне многолетнего
+                  отложения на внутренних стенках артерий атеросклеротических
+                  бляшек. Любые тревожные признаки, характеризующие
+                  патологические процессы в сердце — это повод незамедлительно
+                  отправиться к кардиологу. Каждый клинический случай
+                  стенокардии уникален — он спровоцирован различными факторами,
+                  имеет различную степень выраженности, поэтому без
+                  индивидуальной диагностики и разработанной конкретно для ВАС
+                  программы лечения одолеть болезнь не получится
+                </p>
+              </div>
+            </li>
+            <li class="info-item closed">
+              <div class="info-title">
+                <h2 class="section-title">Атеросклероз</h2>
+
+                <button class="open">
+                  <svg width="25" height="25" class="close-icon">
+                    <use href="./img/icons.svg#plus"></use>
+                  </svg>
+                </button>
+
+                <button class="close">
+                  <svg width="25" height="25" class="open-icon">
+                    <use href="./img/icons.svg#x"></use>
+                  </svg>
+                </button>
+              </div>
+
+              <div class="info-text">
+                <p>
+                  <b>Атеросклероз</b> — опасное заболевание, характеризующееся
+                  жировыми отложениями(атеросклеротическими бляшками) на
+                  внутренних стенках артерий, в результате чего затрудняется
+                  кровоток и нарушается питание тканей организма. При
+                  разрастании бляшек, их целостность может нарушаться и они
+                  превращаются в тромбы, которые перемещаются по сосудам,
+                  закупоривая просвет. В результате развиваются инфаркты и
+                  инсульты. Прогрессирование болезни достаточно медленное, может
+                  протекать без видимых проявлений несколько лет. Первые
+                  признаки, ощутимые для человека, начинаются с момента
+                  закупорки просвета более чем на три четверти. Атеросклероз
+                  можно предотвратить или максимально снизить темп его развития.
+                  Своевременное обращение к специалисту поможет предотвратить
+                  тяжелые последствия этого заболевания.
+                </p>
+              </div>
+            </li>
+            <li class="info-item closed">
+              <div class="info-title">
+                <h2 class="section-title">Обращаться</h2>
+
+                <button class="open">
+                  <svg width="25" height="25" class="close-icon">
+                    <use href="./img/icons.svg#plus"></use>
+                  </svg>
+                </button>
+
+                <button class="close">
+                  <svg width="25" height="25" class="open-icon">
+                    <use href="./img/icons.svg#x"></use>
+                  </svg>
+                </button>
+              </div>
+
+              <div class="info-text">
+                <h3>КОГДА НУЖНО ОБРАЩАТЬСЯ К КАРДИОЛОГУ?</h3>
+                <p>
+                  К кардиологу нужно обратиться каждому мужчине старше 40 и
+                  женщине старше 50 лет. Даже если нет никаких симптомов, ничего
+                  не беспокоит и на первый взгляд все отлично. Также кардиолога
+                  нужно посетить если возникли симптомы, которые могут указывать
+                  на развитие сердечно-сосудистых заболеваний: боли в области
+                  грудной клетки одышка, нарушение дыхания замедленное или
+                  учащенное сердцебиение потеря сознания или предобморочные
+                  состояния скачки давления
+                </p>
+              </div>
+            </li>
+            <li class="info-item closed">
+              <div class="info-title">
+                <h2 class="section-title">Лечим</h2>
+
+                <button class="open">
+                  <svg width="25" height="25" class="close-icon">
+                    <use href="./img/icons.svg#plus"></use>
+                  </svg>
+                </button>
+
+                <button class="close">
+                  <svg width="25" height="25" class="open-icon">
+                    <use href="./img/icons.svg#x"></use>
+                  </svg>
+                </button>
+              </div>
+
+              <div class="info-text">
+                <h3>КАКИЕ БОЛЕЗНИ ЛЕЧИТ КАРДИОЛОГ?</h3>
+                <h4>СПЕЦИАЛИСТ ЗАНИМАЕТСЯ ДИАГНОСТИКОЙ И ЛЕЧЕНИЕМ:</h4>
+                <ul>
+                  <li>Ишемической болезни сердца;</li>
+                  <li>Пороки сердца врожденные и приобретенные;</li>
+                  <li>Кардиты;</li>
+                  <li>Сердечная недостаточность;</li>
+                  <li>Расстройство сердечного ритма;</li>
+                  <li>Гипертоническая болезнь;</li>
+                  <li>Тромбофлебиты, тромбозы;</li>
+                  <li>Прединфарктные состояния, инфаркты;</li>
+                  <li>Аневризмы;</li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+
+    <footer class="page-footer">
+      <div class="container">
+        <section class="footer-left">
+          <a href="./index.html"
+            ><svg class="footer-logo">
+              <use href="./img/icons.svg#logo"></use>
+            </svg>
+          </a>
+
+          <ul class="footer-contacts-list">
+            <li class="footer-contacts-item">
+              <a href=""
+                >г. Днепр, ул. Костомаровская 8<br />(здание спорткомпллекса
+                "Динамо")</a
+              >
+            </li>
+
+            <li class="footer-contacts-item">
+              <a href="mailto:kaplan.cardio@gmail.com">
+                <svg>
+                  <use href="./img/icons.svg#email"></use>
+                </svg>
+                kaplan.cardio@gmail.com</a
+              >
+            </li>
+
+            <li class="footer-contacts-item">
+              <a href="tel:380678040363">
+                <svg>
+                  <use href="./img/icons.svg#phone"></use>
+                </svg>
+                +380 67 804 03 63</a
+              >
+            </li>
+          </ul>
+        </section>
+
+        <section class="social-links">
+          <h2 class="social-links-title">Присоединяйтесь</h2>
+
+          <ul class="social-links-list">
+            <li class="social-links-item">
+              <a href="">
+                <svg>
+                  <use href="./img/icons.svg#instagram"></use>
+                </svg>
+              </a>
+            </li>
+
+            <li class="social-links-item">
+              <a href="">
+                <svg>
+                  <use href="./img/icons.svg#facebook"></use>
+                </svg>
+              </a>
+            </li>
+
+            <li class="social-links-item">
+              <a href="">
+                <svg>
+                  <use href="./img/icons.svg#telegram"></use>
+                </svg>
+              </a>
+            </li>
+
+            <li class="social-links-item">
+              <a href="">
+                <svg>
+                  <use href="./img/icons.svg#viber"></use>
+                </svg>
+              </a>
+            </li>
+
+            <li class="social-links-item">
+              <a href="">
+                <svg>
+                  <use href="./img/icons.svg#whatsapp"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </section>
+
+        <section class="map">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2645.82341126304!2d35.03286330563295!3d48.45991764139793!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x151dd496c2b33ba0!2sKaplan%20Cardiology!5e0!3m2!1sru!2sua!4v1627409013805!5m2!1sru!2sua"
+            width="663"
+            height="210"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+          ></iframe>
+        </section>
+      </div>
+    </footer>
+
+    <script src="./js/index.js"></script>
+  </body>
+</html>

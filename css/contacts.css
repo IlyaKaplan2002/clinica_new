@@ -1,0 +1,16 @@
+.main-contacts-item {
+  text-align: center;
+}
+
+.main-contacts-item > a {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.main-contacts-item:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.section.main-map {
+  padding-top: 0;
+}

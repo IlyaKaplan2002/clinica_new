@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Главная</title>
+    <title>Контакты</title>
     <link
       rel="stylesheet"
       href="./node_modules/modern-normalize/modern-normalize.css"
@@ -14,7 +14,7 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./css/styles.css" />
-    <link rel="stylesheet" href="./css/index.css" />
+    <link rel="stylesheet" href="./css/contacts.css" />
   </head>
   <body>
     <header class="page-header">
@@ -59,89 +59,39 @@
     </header>
 
     <main>
-      <section class="section hero">
+      <section class="section contacts">
         <div class="container">
-          <h1 class="hero-title">
-            Кардиологический кабинет доктора Каплана П. А.
-          </h1>
+          <h1 class="section-title">Свяжитесь с нами</h1>
+
+          <ul class="min-contacts-list">
+            <li class="main-contacts-item">
+              <a href="mailto:kaplan.cardio@gmail.com"
+                >kaplan.cardio@gmail.com</a
+              >
+            </li>
+            <li class="main-contacts-item">
+              <a href="tel:380678040363">+380 67 804 03 63</a>
+            </li>
+            <li class="main-contacts-item">
+              <a href=""
+                >г. Днепр, ул. Костомаровская 8<br />(здание спорткомпллекса
+                "Динамо")</a
+              >
+            </li>
+          </ul>
         </div>
       </section>
 
-      <section class="section welcome">
+      <section class="section main-map">
         <div class="container">
-          <h2 class="section-title">добро пожаловать!</h2>
-
-          <p class="main-text">
-            Консультативный прием ведет врач-кардиолог высшей категории, доцент,
-            кандидат медицинских наук, автор множества научных работ по
-            кардиологии, член Европейского общества кардиологов
-            <span class="important"><br />Каплан Павел Александрович.</span
-            ><br />
-            Опыт работы: <span class="important">22 года</span>
-          </p>
-        </div>
-      </section>
-
-      <section class="section time">
-        <div class="container">
-          <h2 class="section-title">ВРЕМЯ РАБОТЫ</h2>
-
-          <div class="time-lists-container">
-            <ul class="days-list">
-              <li class="days-item main-text">
-                <svg>
-                  <use href="./img/icons.svg#clock"></use>
-                </svg>
-                Понедельник
-              </li>
-              <li class="days-item main-text">
-                <svg>
-                  <use href="./img/icons.svg#clock"></use>
-                </svg>
-                Вторник
-              </li>
-              <li class="days-item main-text">
-                <svg>
-                  <use href="./img/icons.svg#clock"></use>
-                </svg>
-                Среда
-              </li>
-              <li class="days-item main-text">
-                <svg>
-                  <use href="./img/icons.svg#clock"></use>
-                </svg>
-                Четверг
-              </li>
-              <li class="days-item main-text">
-                <svg>
-                  <use href="./img/icons.svg#clock"></use>
-                </svg>
-                Пятница
-              </li>
-              <li class="days-item main-text">
-                <svg>
-                  <use href="./img/icons.svg#clock"></use>
-                </svg>
-                Суббота
-              </li>
-              <li class="days-item main-text">
-                <svg>
-                  <use href="./img/icons.svg#clock"></use>
-                </svg>
-                Воскресенье
-              </li>
-            </ul>
-
-            <ul class="time-list">
-              <li class="time-item main-text">09:00 - 19:00</li>
-              <li class="time-item main-text">09:00 - 19:00</li>
-              <li class="time-item main-text">09:00 - 19:00</li>
-              <li class="time-item main-text">09:00 - 19:00</li>
-              <li class="time-item main-text">09:00 - 19:00</li>
-              <li class="time-item main-text">10:00 - 16:00</li>
-              <li class="time-item main-text">Выходной</li>
-            </ul>
-          </div>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2645.82341126304!2d35.03286330563295!3d48.45991764139793!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x151dd496c2b33ba0!2sKaplan%20Cardiology!5e0!3m2!1sru!2sua!4v1627409013805!5m2!1sru!2sua"
+            width="1170"
+            height="900"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+          ></iframe>
         </div>
       </section>
     </main>
