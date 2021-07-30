@@ -62,10 +62,22 @@
       <section class="section hero">
         <div class="container">
           <h1 class="hero-title">
-            Кардиологический кабинет доктора Каплана П. А.
+            Кардиологический кабинет<br />доктора Каплана П. А.
           </h1>
+
+          <button type="button" data-modal-open>Заказать услугу</button>
         </div>
       </section>
+
+      <div class="backdrop is-hidden" data-modal>
+        <div class="modal">
+          <button class="close-modal" data-modal-close>
+            <svg class="close-icon" viewBox="0 0 32 32">
+              <use href="./img/icons.svg#plus"></use>
+            </svg>
+          </button>
+        </div>
+      </div>
 
       <section class="section welcome">
         <div class="container">
@@ -241,5 +253,7 @@
         </section>
       </div>
     </footer>
+
+    <script src="./js/modal.js"></script>
   </body>
 </html>

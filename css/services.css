@@ -1,5 +1,5 @@
 .services .service-wrapper {
-  border: 1px solid #000000;
+  border: 1px solid var(--main-text-color);
   padding: 20px 46.5px;
 }
 
