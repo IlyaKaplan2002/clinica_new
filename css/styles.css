@@ -333,6 +333,8 @@ a {
 /* Footer */
 
 .page-footer {
+  margin: 0 auto;
+  max-width: 1600px;
   background-color: #2f303a;
 }
 

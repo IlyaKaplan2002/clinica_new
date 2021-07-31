@@ -3,8 +3,9 @@
 /* Hero */
 
 .hero {
-  width: 100%;
+  max-width: 1600px;
   height: 600px;
+  margin: 0 auto;
   background-color: #2f303a;
   background-image: url(../img/Hero-container.jpg);
   background-repeat: no-repeat;
