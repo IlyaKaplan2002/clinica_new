@@ -113,6 +113,11 @@
     font-size: 18px;
   }
 
+  .info-item {
+    justify-content: space-between;
+    padding: 20px 10px;
+  }
+
   /* Contacts */
 
   .section.main-map iframe {

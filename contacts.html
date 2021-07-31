@@ -94,6 +94,88 @@
         </div>
       </section>
 
+      <!-- Modal window -->
+      <div class="backdrop is-hidden" data-modal>
+        <div class="modal">
+          <button class="close-modal" data-modal-close>
+            <svg class="close-icon">
+              <use href="./img/icons.svg#close"></use>
+            </svg>
+          </button>
+
+          <h2>Записаться на приём:</h2>
+
+          <form action="">
+            <ul>
+              <li>
+                <p class="main-text">ФИО:</p>
+                <input type="text" name="name" />
+              </li>
+              <li>
+                <p class="main-text">Возраст:</p>
+                <input type="number" name="age" />
+              </li>
+              <li>
+                <p class="main-text">Телефон:</p>
+                <input type="tel" name="phone" />
+              </li>
+
+              <!-- Adaptive -->
+              <li class="submit-adaptive"><input type="submit" /></li>
+            </ul>
+
+            <ul>
+              <li class="appointment-input">
+                <p class="main-text">Приём:</p>
+                <label>
+                  <input checked type="radio" name="appointment" />
+                  Первичный </label
+                ><br />
+                <label>
+                  <input type="radio" name="appointment" />
+                  Вторичный
+                </label>
+              </li>
+              <li class="services-input">
+                <p class="main-text">Услуга/услуги:</p>
+                <label
+                  ><input type="checkbox" name="service" />ПЕРВИЧНЫЙ ПРИЁМ
+                  ВРАЧА-КАРДИОЛОГА (С РЕГИСТРАЦИЕЙ И РАСШИФРОВКОЙ ЭКГ)</label
+                >
+                <label
+                  ><input type="checkbox" name="service" />ПОВТОРНЫЙ ПРИЁМ
+                  ВРАЧА-КАРДИОЛОГА(С РЕГИСТРАЦИЕЙ И РАСШИФРОВКОЙ ЭКГ)</label
+                >
+                <label
+                  ><input type="checkbox" name="service" />КОНСУЛЬТАЦИЯ
+                  ВРАЧА-КАРДИОЛОГА НА ДОМУ У ПАЦИЕНТА (С РЕГИСТРАЦИЕЙ И
+                  РАСШИФРОВКОЙ ЭКГ)</label
+                >
+                <label
+                  ><input type="checkbox" name="service" />РЕГИСТРАЦИЯ И
+                  РАСШИФРОВКА ЭКГ</label
+                >
+                <label
+                  ><input type="checkbox" name="service" />РЕГИСТРАЦИЯ И
+                  РАСШИФРОВКА ЭКГ С РИТМОГРАММОЙ</label
+                >
+                <label
+                  ><input type="checkbox" name="service" />СУТОЧНОЕ
+                  (ХОЛТЕРОВСКОЕ) МОНИТОРИРОВАНИЕ ЭКГ</label
+                >
+                <label
+                  ><input type="checkbox" name="service" />СУТОЧНОЕ
+                  МОНИТОРИРОВАНИЕ АРТЕРИАЛЬНОГО ДАВЛЕНИЯ</label
+                >
+              </li>
+              <li>
+                <input type="submit" />
+              </li>
+            </ul>
+          </form>
+        </div>
+      </div>
+
       <section class="section main-map">
         <div class="container">
           <iframe
@@ -201,5 +283,12 @@
         </section>
       </div>
     </footer>
+
+    <!-- Fixed button to register -->
+    <button class="fixed-button" type="button" data-modal-open>
+      Записаться
+    </button>
+
+    <script src="./js/modal1.js"></script>
   </body>
 </html>
