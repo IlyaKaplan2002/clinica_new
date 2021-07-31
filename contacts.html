@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="./css/styles.css" />
     <link rel="stylesheet" href="./css/contacts.css" />
     <link rel="stylesheet" href="./css/adaptive.css" />
+    <script src="./js/adaptive-menu.js"></script>
   </head>
   <body>
     <header class="page-header">
@@ -28,13 +29,20 @@
           </a>
 
           <!-- Adaptive -->
-          <ul class="nav-list-adaptive">
-            <li class="menu-open">Меню</li>
+          <!-- Adaptive with icon -->
+          <ul class="topnav nav-list-adaptive" id="myTopnav">
             <li class="nav-list-item"><a href="./index.html">Главная</a></li>
             <li class="nav-list-item"><a href="./services.html">Услуги</a></li>
             <li class="nav-list-item"><a href="./info.html">Информация</a></li>
             <li class="nav-list-item">
               <a href="./contacts.html">Контакты</a>
+            </li>
+            <li>
+              <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <svg width="32" height="32">
+                  <use href="./img/icons.svg#menu"></use>
+                </svg>
+              </a>
             </li>
           </ul>
 
