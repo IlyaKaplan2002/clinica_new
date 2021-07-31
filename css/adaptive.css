@@ -1,0 +1,59 @@
+@media screen and (min-width: 400px) and (max-width: 800px) {
+  body {
+    max-width: 800px;
+  }
+
+  .container {
+    width: 400px;
+  }
+
+  .nav-list {
+    display: none;
+  }
+
+  .page-header-cont {
+    display: flex;
+    justify-content: center;
+  }
+
+  .contacts-list {
+    display: none;
+  }
+
+  /* Modal */
+
+  .modal {
+    width: 300px;
+  }
+
+  .modal form {
+    display: block;
+  }
+
+  /* Index */
+
+  .hero {
+    background: none;
+    height: auto;
+  }
+
+  .hero-title {
+    display: none;
+  }
+
+  .section.hero {
+    margin: 0 auto;
+  }
+
+  .welcome p.main-text {
+    width: auto;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  /* Footer */
+
+  .map {
+    display: none;
+  }
+}

@@ -19,10 +19,10 @@ html {
 ul {
   list-style: none;
 }
-
+/* 
 body {
-  /* padding-top: 94.699px; */
-}
+  padding-top: 94.699px;
+} */
 
 body,
 h2,
@@ -75,12 +75,12 @@ a {
 
 /* Header */
 
-.page-header {
-  /* position: fixed;
-  top: 0; */
-  /* background-color: var(--main-text-color); */
-  /* width: 100%; */
-}
+/* .page-header {
+  position: fixed;
+  top: 0;
+  background-color: var(--main-text-color);
+  width: 100%;
+} */
 
 .page-header-cont {
   display: flex;
