@@ -20,6 +20,29 @@
     justify-content: space-between;
   }
 
+  /* trying adaptive menu */
+  .topnav li:first-child {
+    margin-top: 25px;
+  }
+
+  .topnav li:not(:last-child) {
+    display: none;
+  }
+
+  .topnav {
+    position: relative;
+  }
+
+  .topnav a.icon {
+    position: absolute;
+    left: -30px;
+    top: 20px;
+  }
+
+  .topnav.responsive li {
+    display: block;
+  }
+
   .contacts-list {
     display: none;
   }
@@ -105,27 +128,6 @@
 
   .map {
     display: none;
-  }
-
-  /* trying adaptive menu */
-  .topnav li:first-child {
-    margin-top: 25px;
-  }
-
-  .topnav li:not(:last-child) {
-    display: none;
-  }
-
-  .topnav {
-    position: relative;
-  }
-  .topnav a.icon {
-    position: absolute;
-    left: 0;
-    top: 0;
-  }
-  .topnav.responsive li {
-    display: block;
   }
 }
 
