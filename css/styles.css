@@ -229,23 +229,20 @@ a {
 .close-icon {
   width: 18px;
   height: 18px;
-  stroke: var(--main-text-color);
-  stroke-width: 2px;
-  transform: rotate(45deg);
-  transition: stroke 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
   position: relative;
 }
-
+/* 
 .close-icon > path {
   position: absolute;
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
-}
+} */
 
 .close-modal:hover .close-icon {
-  stroke: var(--hover-color);
+  fill: var(--hover-color);
   cursor: pointer;
 }
 

@@ -43,17 +43,6 @@
   padding: 0;
 }
 
-.info-item svg {
-  stroke: var(--main-text-color);
-  stroke-width: 2px;
-  transition: stroke 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.info-item svg:hover {
-  stroke: var(--hover-color);
-  cursor: pointer;
-}
-
 .info-title {
   display: flex;
   justify-content: space-between;
@@ -73,8 +62,17 @@
 }
 
 .info-icon {
-  transform: rotate(0);
-  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  stroke: var(--main-text-color);
+  stroke-width: 2px;
+  transform: rotate(0deg);
+
+  transition: stroke 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    transform 150ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.info-icon:hover {
+  stroke: var(--hover-color);
+  cursor: pointer;
 }
 
 .opened .info-icon {
