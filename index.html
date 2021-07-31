@@ -84,26 +84,61 @@
             <ul>
               <li>
                 <p class="main-text">ФИО:</p>
-                <input type="text" />
+                <input type="text" name="name" />
               </li>
               <li>
                 <p class="main-text">Возраст:</p>
-                <input type="text" />
+                <input type="number" name="age" />
               </li>
               <li>
                 <p class="main-text">Телефон:</p>
-                <input type="text" />
+                <input type="tel" name="phone" />
               </li>
             </ul>
 
             <ul>
-              <li>
+              <li class="appointment-input">
                 <p class="main-text">Приём:</p>
-                <input type="radio" />
+                <label>
+                  <input checked type="radio" name="appointment" />
+                  Первичный </label
+                ><br />
+                <label>
+                  <input type="radio" name="appointment" />
+                  Вторичный
+                </label>
               </li>
-              <li>
+              <li class="services-input">
                 <p class="main-text">Услуга/услуги:</p>
-                <input type="checkbox" />
+                <label
+                  ><input type="checkbox" name="service" />ПЕРВИЧНЫЙ ПРИЁМ
+                  ВРАЧА-КАРДИОЛОГА (С РЕГИСТРАЦИЕЙ И РАСШИФРОВКОЙ ЭКГ)</label
+                >
+                <label
+                  ><input type="checkbox" name="service" />ПОВТОРНЫЙ ПРИЁМ
+                  ВРАЧА-КАРДИОЛОГА(С РЕГИСТРАЦИЕЙ И РАСШИФРОВКОЙ ЭКГ)</label
+                >
+                <label
+                  ><input type="checkbox" name="service" />КОНСУЛЬТАЦИЯ
+                  ВРАЧА-КАРДИОЛОГА НА ДОМУ У ПАЦИЕНТА (С РЕГИСТРАЦИЕЙ И
+                  РАСШИФРОВКОЙ ЭКГ)</label
+                >
+                <label
+                  ><input type="checkbox" name="service" />РЕГИСТРАЦИЯ И
+                  РАСШИФРОВКА ЭКГ</label
+                >
+                <label
+                  ><input type="checkbox" name="service" />РЕГИСТРАЦИЯ И
+                  РАСШИФРОВКА ЭКГ С РИТМОГРАММОЙ</label
+                >
+                <label
+                  ><input type="checkbox" name="service" />СУТОЧНОЕ
+                  (ХОЛТЕРОВСКОЕ) МОНИТОРИРОВАНИЕ ЭКГ</label
+                >
+                <label
+                  ><input type="checkbox" name="service" />СУТОЧНОЕ
+                  МОНИТОРИРОВАНИЕ АРТЕРИАЛЬНОГО ДАВЛЕНИЯ</label
+                >
               </li>
               <li>
                 <input type="submit" />
