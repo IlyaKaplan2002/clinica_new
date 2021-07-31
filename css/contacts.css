@@ -19,3 +19,8 @@
 .section.main-map {
   padding-top: 0;
 }
+
+.section.main-map iframe {
+  width: 1170px;
+  height: 900px;
+}
