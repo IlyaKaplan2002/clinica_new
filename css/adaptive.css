@@ -13,7 +13,7 @@
 
   .nav-list-adaptive {
     overflow: hidden;
-    height: 100px;
+    height: 150px;
     /* border: 1px solid #000; */
     transform: translateY(25%);
   }
@@ -96,6 +96,19 @@
 
   .services-list-adaptive .services-item {
     margin-bottom: 25px;
+  }
+
+  /* Info */
+
+  .info .section-title {
+    margin-bottom: 0;
+    font-size: 30px;
+    text-transform: none;
+  }
+
+  .info-item p,
+  .info-item li {
+    font-size: 18px;
   }
 
   /* Contacts */
