@@ -100,12 +100,8 @@
 
   /* Contacts */
 
-  .section.main-map {
-    padding: 0 63px;
-  }
-
   .section.main-map iframe {
-    width: 300px;
+    width: 100%;
     height: 300px;
   }
 
